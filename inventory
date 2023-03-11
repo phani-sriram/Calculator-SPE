@@ -1,2 +1,2 @@
 [ubuntu18]
-172.16.131.232 ansible_user=blackthorn
+172.16.131.232 ansible_user=sriram
