@@ -62,3 +62,35 @@
 2023-03-15 16:26:51.785 [main] INFO  Calculator - Factorial - 3.0 = 6.0
 2023-03-15 16:26:51.785 [main] INFO  Calculator - Factorial - 5.0
 2023-03-15 16:26:51.785 [main] INFO  Calculator - Factorial - 5.0 = 120.0
+2023-03-15 17:29:38.865 [main] INFO  Calculator - Power - 3.0 raised to 2.0
+2023-03-15 17:29:38.876 [main] INFO  Calculator - Power - 3.0 raised to 2.0 Answer - 9.0
+2023-03-15 17:29:38.877 [main] INFO  Calculator - Power - 5.0 raised to 2.0
+2023-03-15 17:29:38.877 [main] INFO  Calculator - Power - 5.0 raised to 2.0 Answer - 25.0
+2023-03-15 17:29:38.878 [main] INFO  Calculator - Factorial - 3.0
+2023-03-15 17:29:38.879 [main] INFO  Calculator - Factorial - 3.0 = 6.0
+2023-03-15 17:29:38.880 [main] INFO  Calculator - Factorial - 5.0
+2023-03-15 17:29:38.880 [main] INFO  Calculator - Factorial - 5.0 = 120.0
+2023-03-15 17:29:38.881 [main] INFO  Calculator - Logarithm - 1.0
+2023-03-15 17:29:38.881 [main] INFO  Calculator - Logarithm - 1.0 = 0.0
+2023-03-15 17:29:38.882 [main] INFO  Calculator - Logarithm - 1.0
+2023-03-15 17:29:38.882 [main] INFO  Calculator - Logarithm - 1.0 = 0.0
+2023-03-15 17:29:38.883 [main] INFO  Calculator - Square root - 25.0
+2023-03-15 17:29:38.883 [main] INFO  Calculator - Square root - 25.0 - ANSWER 5.0
+2023-03-15 17:29:38.884 [main] INFO  Calculator - Square root - 36.0
+2023-03-15 17:29:38.884 [main] INFO  Calculator - Square root - 36.0 - ANSWER 6.0
+2023-03-15 17:29:38.884 [main] INFO  Calculator - Square root - 25.0
+2023-03-15 17:29:38.885 [main] INFO  Calculator - Square root - 25.0 - ANSWER 5.0
+2023-03-15 17:29:38.885 [main] INFO  Calculator - Square root - 36.0
+2023-03-15 17:29:38.885 [main] INFO  Calculator - Square root - 36.0 - ANSWER 6.0
+2023-03-15 17:29:38.886 [main] INFO  Calculator - Power - 3.0 raised to 2.0
+2023-03-15 17:29:38.886 [main] INFO  Calculator - Power - 3.0 raised to 2.0 Answer - 9.0
+2023-03-15 17:29:38.886 [main] INFO  Calculator - Power - 4.0 raised to 2.0
+2023-03-15 17:29:38.887 [main] INFO  Calculator - Power - 4.0 raised to 2.0 Answer - 16.0
+2023-03-15 17:29:38.887 [main] INFO  Calculator - Logarithm - 3.0
+2023-03-15 17:29:38.888 [main] INFO  Calculator - Logarithm - 3.0 = 1.0986122886681098
+2023-03-15 17:29:38.889 [main] INFO  Calculator - Logarithm - 5.0
+2023-03-15 17:29:38.889 [main] INFO  Calculator - Logarithm - 5.0 = 1.6094379124341003
+2023-03-15 17:29:38.889 [main] INFO  Calculator - Factorial - 3.0
+2023-03-15 17:29:38.890 [main] INFO  Calculator - Factorial - 3.0 = 6.0
+2023-03-15 17:29:38.890 [main] INFO  Calculator - Factorial - 5.0
+2023-03-15 17:29:38.890 [main] INFO  Calculator - Factorial - 5.0 = 120.0
