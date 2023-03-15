@@ -11,4 +11,4 @@
       shell: docker pull phanisriram/calculator
 
     - name: running container
-      shell: docker run -it --name calculator -d phanisriram/calculator
+      shell: docker run -it -d phanisriram/calculator
