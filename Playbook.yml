@@ -11,4 +11,4 @@
       shell: docker pull phanisriram/calculator
 
     - name: running container
-      shell: docker run -it -d phanisriram/calculator java -jar Calculator-SPE-1.0-SNAPSHOT.jar
+      shell: docker run -it -d phanisriram/calculator /bin/bash
