@@ -40,16 +40,16 @@ public class TestCalculator {
         assertNotEquals("Finding natural logarithm (False Positive)", 6, cal.logarithm(5), DELTA);
     }
 
-    @Test
-    public void PowerTruePositive(){
-        assertEquals("Finding power (False Positive)", 9, cal.power(3.0, 2.0), DELTA);
-        assertEquals("Finding power (False Positive)", 16, cal.power(4.0, 2.0), DELTA);
-    }
-
-    @Test
-    public void PowerFalsePositive(){
-        assertNotEquals("Finding power (False Positive)", 120, cal.power(3, 2), DELTA);
-        assertNotEquals("Finding power (False Positive)", 6, cal.power(5, 2), DELTA);
-    }
+//    @Test
+//    public void PowerTruePositive(){
+//        assertEquals("Finding power (False Positive)", 9, cal.power(3.0, 2.0), DELTA);
+//        assertEquals("Finding power (False Positive)", 16, cal.power(4.0, 2.0), DELTA);
+//    }
+//
+//    @Test
+//    public void PowerFalsePositive(){
+//        assertNotEquals("Finding power (False Positive)", 120, cal.power(3, 2), DELTA);
+//        assertNotEquals("Finding power (False Positive)", 6, cal.power(5, 2), DELTA);
+//    }
 
 }

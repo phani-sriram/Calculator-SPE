@@ -67,19 +67,20 @@ public class Calculator {
                 System.out.print(" is ");
                 System.out.println(Calculator.logarithm(operand));
                 System.out.println("--------------------------------");
-            } else if (code == 4) {
-                System.out.print("Enter the number for which you would like to find ");
-                System.out.print("Power : ");
-                System.out.print("\nPlease enter the base : ");
-                double base = sc.nextDouble();
-                System.out.print("Please enter the exponent :");
-                double exp = sc.nextDouble();
-                System.out.print("The value of ");
-                System.out.print(base);
-                System.out.print(" raised to " + exp + " is ");
-                System.out.println(Calculator.power(base, exp));
-                System.out.println("--------------------------------");
-            } else {
+            } // else if (code == 4) {
+//                System.out.print("Enter the number for which you would like to find ");
+//                System.out.print("Power : ");
+//                System.out.print("\nPlease enter the base : ");
+//                double base = sc.nextDouble();
+//                System.out.print("Please enter the exponent :");
+//                double exp = sc.nextDouble();
+//                System.out.print("The value of ");
+//                System.out.print(base);
+//                System.out.print(" raised to " + exp + " is ");
+//                System.out.println(Calculator.power(base, exp));
+//                System.out.println("--------------------------------");
+//        }
+            else {
                 System.out.println("Invalid operation code. Please try again");
                 System.out.println("--------------------------------");
             }
@@ -112,12 +113,12 @@ public class Calculator {
         return log_val;
     }
 
-    public static double power(double base, double power) {
-        logger.info("Power - " + base + " raised to " + power);
-        double val = Math.pow(base, power);
-        logger.info("Power - " + base + " raised to " + power + " Answer - " + val);
-        return  val;
-    }
+//    public static double power(double base, double power) {
+//        logger.info("Power - " + base + " raised to " + power);
+//        double val = Math.pow(base, power);
+//        logger.info("Power - " + base + " raised to " + power + " Answer - " + val);
+//        return  val;
+//    }
 
 
 
