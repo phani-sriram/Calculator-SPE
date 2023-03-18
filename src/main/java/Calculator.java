@@ -36,10 +36,11 @@ public class Calculator {
                     System.out.println("Cannot find square root of negative number!");
                     continue;
                 }
+                double ans = Calculator.squareRoot(operand);
                 System.out.print("The square root of ");
                 System.out.print(operand);
                 System.out.print(" is ");
-                System.out.println(Calculator.squareRoot(operand));
+                System.out.println(ans);
                 System.out.println("--------------------------------");
             } else if (code == 2) {
                 System.out.print("Enter the number for which you would like to find ");
@@ -49,10 +50,11 @@ public class Calculator {
                     System.out.println("Cannot find factorial of negative number!");
                     continue;
                 }
+                double ans = Calculator.factorial(operand);
                 System.out.print("The factorial of ");
                 System.out.print(operand);
                 System.out.print(" is ");
-                System.out.println(Calculator.factorial(operand));
+                System.out.println(ans);
                 System.out.println("--------------------------------");
             } else if (code == 3) {
                 System.out.print("Enter the number for which you would like to find ");
@@ -62,10 +64,11 @@ public class Calculator {
                     System.out.println("Cannot find logarithm of negative number!");
                     continue;
                 }
+                double ans = Calculator.logarithm(operand);
                 System.out.print("The logarithm of ");
                 System.out.print(operand);
                 System.out.print(" is ");
-                System.out.println(Calculator.logarithm(operand));
+                System.out.println(ans);
                 System.out.println("--------------------------------");
             } else if (code == 4) {
                 System.out.print("Enter the number for which you would like to find ");
@@ -74,10 +77,11 @@ public class Calculator {
                 double base = sc.nextDouble();
                 System.out.print("Please enter the exponent :");
                 double exp = sc.nextDouble();
+                double ans = Calculator.power(base, exp);
                 System.out.print("The value of ");
                 System.out.print(base);
                 System.out.print(" raised to " + exp + " is ");
-                System.out.println(Calculator.power(base, exp));
+                System.out.println(ans);
                 System.out.println("--------------------------------");
             }  else {
                 System.out.println("Invalid operation code. Please try again");
