@@ -3,7 +3,7 @@ import org.junit.Test;
 public class TestCalculator {
     private static final double DELTA = 1e-15;
     Calculator cal;
-
+    // Test Pipeline completely!
     @Test
     public void SQTruePositive(){
         assertEquals("Finding square root (True Positive)", 5, cal.squareRoot(25), DELTA);
